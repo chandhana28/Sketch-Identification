@@ -1,0 +1,23 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #aa1384;
+    color: aliceblue;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exmaple{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
